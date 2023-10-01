@@ -1,0 +1,120 @@
+.datos {
+    display: flex;
+    text-align: center;
+    text-transform: capitalize;
+    align-items: center;
+    justify-content: center;
+    font-family: 'roboto';
+    font-weight:  500;
+    padding: 10px;
+    margin-top: 15px;
+    color: #52191c;
+}
+
+
+
+.datos ul {
+    list-style: none;
+    color: rgb(167, 23, 23);
+}
+
+.espacio {
+    height: 40px;
+    background-color: rgb(227, 227, 227);
+}
+
+.educacion {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    font-family: 'roboto';
+    text-align: center;
+    padding: 10px;
+    margin-top: 15px;
+    color: #52191c;
+}
+
+.educacion ul {
+    list-style: none;
+    color: rgb(167, 23, 23);
+}
+
+.experiencia {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'roboto';
+    font-weight: 300;
+    text-align: center;
+    padding: 10px;
+    margin-top: 15px;
+    color: #52191c;
+}
+
+.experiencia ul {
+    list-style: none;
+    color: rgb(167, 23, 23);
+}
+
+.portafolio-text {
+    text-align: center;
+    font-family: 'roboto';
+    font-weight: 500;
+    margin-top: 15px;
+    color: #52191c;
+}
+
+.portafolio {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+#text-navbar {
+    font-family: 'roboto';
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+
+}
+
+#navbarNav {
+    justify-content: center;
+}
+
+.carousel-inner {
+    padding: 25;
+    
+}
+
+.carousel-item {
+    justify-content: center;
+}
+
+.footer * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.footer {
+    background-color: #52191c;
+    padding: 50px 0;
+}
+
+.footer-links {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-links h4 {
+    font-size: 20px;
+    color: rgb(235, 231, 231);
+    margin-bottom: 20px;
+    font-weight: 500;
+    border-bottom: 2px solid #948788;
+    padding-bottom: 8px;
+    display: inline-block;
+    text-transform: capitalize;
+}
